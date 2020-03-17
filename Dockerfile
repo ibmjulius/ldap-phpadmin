@@ -1,8 +1,8 @@
 FROM alpine:3.3
 
-MAINTAINER Maksym Nebot <maksym.nebot@accenture.com>
+MAINTAINER Julius Ca-aya
 
-ENV LDAP_SERVER_NAME 'ADOP LDAP'
+ENV LDAP_SERVER_NAME 'LDAP'
 ENV LDAP_SERVER_HOST 'ldap'
 ENV LDAP_SERVER_PORT '389'
 ENV LDAP_SERVER_BIND_ID 'cn=admin,dc=ldap,dc=example,dc=com'
