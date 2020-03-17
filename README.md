@@ -1,6 +1,6 @@
 #Supported tags and respective Dockerfile links
 
-- [`0.1.0`, `0.1.0` (*0.1.0/Dockerfile*)](https://github.com/Accenture/adop-phpldapadmin/blob/master/Dockerfile)
+- [`0.2.0`, `0.2.0` (*0.2.0/Dockerfile*)](https://github.com/ibmjulius/ldap-phpadmin/blob/master/Dockerfile)
 
 # What is adop-phpldapadmin?
 
@@ -22,7 +22,7 @@ The service configuration is externalised and stored the 'files' directory.
 
 Runtime configuration can be provided using environment variables:
 
-* LDAP_SERVER_NAME, the LDAP server name, i.e. "ADOP LDAP"
+* LDAP_SERVER_NAME, the LDAP server name, i.e. "LDAP"
 * LDAP_SERVER_BASE_DN, the LDAP BASE_DN
 * LDAP_SERVER_BIND_ID, the LDAP admin bind ID
 * LDAP_SERVER_HOST, the LDAP server host, i.e. "ldap"
@@ -42,9 +42,7 @@ Documentation for this image is available in the [PHP LDAP Admin page](http://ph
 Additional documentaion can be found under the [`docker-library/docs` GitHub repo](https://github.com/docker-library/docs). Be sure to familiarize yourself with the [repository's `README.md` file](https://github.com/docker-library/docs/blob/master/README.md) before attempting a pull request.
 
 ## Issues
-If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/Accenture/adop-phpldapadmin/issues).
+If you have any problems with or questions about this image, please contact us.
 
 ## Contribute
 You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
-
-Before you start to code, we recommend discussing your plans through a [GitHub issue](https://github.com/Accenture/adop-phpldapadmin/issues), especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.
